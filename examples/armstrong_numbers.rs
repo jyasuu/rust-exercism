@@ -61,3 +61,5 @@ mod test {
         assert!(!is_armstrong_number(9_926_314))
     }
 }
+
+fn main() {}
