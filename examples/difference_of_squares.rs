@@ -1,4 +1,6 @@
+#![allow(dead_code)]
 mod squares {
+
     pub fn square_of_sum(n: u32) -> u32 {
         let sum = (1..=n).sum::<u32>();
         sum * sum
